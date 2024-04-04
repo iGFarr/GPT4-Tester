@@ -116,7 +116,6 @@ The `JokesScreen` component is designed to fetch and display jokes from the "Jok
 - **Joke Fetching**: Leverages `axios` to make HTTP GET requests to the JokeAPI for random jokes.
 - **Loading State**: Incorporates an `ActivityIndicator` to indicate ongoing network requests.
 - **Text-to-Speech**: Uses `expo-speech` to read the joke out loud, providing an interactive experience.
-- **Styling**: Adheres to an Ally Bank-inspired theme with a focus on accessibility and usability.
 
 ## Functionality
 

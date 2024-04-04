@@ -1,6 +1,10 @@
-# React Native Animation Examples
-
 ![Your Image Description](link-to-your-image)
+
+<p align="center">
+  <img src="URL_TO_FIRST_IMAGE" alt="Description of the first image" width="280" style="margin-right: 10px;"/>
+  <img src="URL_TO_SECOND_IMAGE" alt="Description of the second image" width="280" />
+</p>
+# React Native Animation Examples
 
 This project demonstrates a comprehensive approach to using React Native's `Animated` library to create a variety of animations, showcasing different animation techniques such as fading, scaling, sliding, rotating, and more complex sequences like parallel and staggered animations.
 

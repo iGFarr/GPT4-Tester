@@ -15,7 +15,7 @@
 
 <hr style="border: 4px solid #000;"/>
 
-# ReanimatedAnimationsScreen Component Documentation
+# React Native Animation Examples
 
 This project demonstrates a comprehensive approach to using React Native's `Animated` library to create a variety of animations, showcasing different animation techniques such as fading, scaling, sliding, rotating, and more complex sequences like parallel and staggered animations.
 

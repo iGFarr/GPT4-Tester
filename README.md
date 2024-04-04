@@ -21,6 +21,50 @@
 
 <hr style="border: 4px solid #000;"/>
 
+# JokesScreen Component Documentation
+
+The `JokesScreen` component is designed to fetch and display jokes from the "JokeAPI". It showcases the integration of network requests within a React Native application and utilizes the `expo-speech` library to read jokes aloud, enhancing accessibility and user interaction.
+
+## Features
+
+- **Joke Fetching**: Leverages `axios` to make HTTP GET requests to the JokeAPI for random jokes.
+- **Loading State**: Incorporates an `ActivityIndicator` to indicate ongoing network requests.
+- **Text-to-Speech**: Uses `expo-speech` to read the joke out loud, providing an interactive experience.
+- **Styling**: Adheres to an Ally Bank-inspired theme with a focus on accessibility and usability.
+
+## Functionality
+
+- **Fetching Jokes**: Upon tapping the "Tell Me A Joke" button, the component initiates a request to fetch a random joke. It handles both successful responses and errors gracefully, updating the UI accordingly.
+- **Reading Jokes Aloud**: If a joke is successfully fetched, an additional button "Read Joke Aloud" is displayed, which, when pressed, invokes the text-to-speech functionality to narrate the joke.
+
+## State Management
+
+- `joke`: Stores the current joke or an error message.
+- `loading`: Tracks the loading state of the joke fetching process.
+
+Utilizes the `useState` hook for state management, ensuring component reactivity to state changes.
+
+## Error Handling
+
+Implements basic error handling for network request failures or if the fetched data does not meet the expected format, providing user feedback through UI updates.
+
+## Styling
+
+The component is styled to align with the Ally Bank theme, featuring:
+
+- **Container**: A flex container that centers its content, with a light background for contrast.
+- **Buttons**: Styled with the Ally Bank's purple hue, rounded corners, and margin for separation.
+- **Text**: Joke text is displayed in a dark purple for readability, with an increased font size to accommodate various screen sizes and user needs.
+
+### Usage
+
+This component can be integrated into any React Native app requiring light-hearted, interactive content. It demonstrates practical applications of network requests, state management, and third-party library integration in React Native.
+
+import JokesScreen from './path/to/JokesScreen';
+
+<hr style="border: 4px solid #000;"/>
+
+
 # React Native Animation Examples
 
 This project demonstrates a comprehensive approach to using React Native's `Animated` library to create a variety of animations, showcasing different animation techniques such as fading, scaling, sliding, rotating, and more complex sequences like parallel and staggered animations.

@@ -1,7 +1,5 @@
-![Your Image Description](link-to-your-image)
-
 <p align="center">
-  <img src="URL_TO_FIRST_IMAGE" alt="Description of the first image" width="280" style="margin-right: 10px;"/>
+  <img src="./JokesPic" alt="a screenshot of some joke feature of an iOS app" width="280" style="margin-right: 10px;"/>
   <img src="URL_TO_SECOND_IMAGE" alt="Description of the second image" width="280" />
 </p>
 # React Native Animation Examples

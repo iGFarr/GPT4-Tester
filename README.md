@@ -357,3 +357,81 @@ The `StocksScreen` component is designed for displaying and filtering a list of 
 
 <hr style="border: 4px solid #000;"/>
 
+# ChartsScreen Component Documentation
+
+The `ChartsScreen` component demonstrates the visualization of stock prices and monthly performance metrics using line and bar charts in a React Native application. It utilizes the `react-native-gifted-charts` library to render both line and bar charts, providing insights into data through visual means.
+
+## Features
+
+- **Line Chart for Stock Prices**: Displays stock price trends over time with a customizable line chart.
+- **Bar Chart for Monthly Performance**: Visualizes monthly performance data using a bar chart format.
+- **Custom Styling**: Both charts are styled with custom colors, including the line, dots, and bars to match the application theme.
+
+## Data Structure
+
+- The component uses two arrays of objects, `lineChartData` and `barChartData`, to supply data to the line and bar charts respectively. Each object within the arrays contains keys for `value`, `label`, and styling properties.
+
+## Line Chart
+
+- Represents stock price fluctuations over time.
+- Customized with theme colors, area chart gradient fills, and dot indicators for each data point.
+
+## Bar Chart
+
+- Showcases monthly performance as distinct bars.
+- Bars are individually colored and can be adjusted in width and borderRadius for visual appeal.
+
+## Styling
+
+- The component is wrapped in a `SafeAreaView` and a `ScrollView` to accommodate varying screen sizes and ensure content is accessible across different devices.
+- Chart headers are styled to stand out against the application's background, enhancing readability.
+
+## Integration
+
+- To integrate the `ChartsScreen` component into your application, ensure `react-native-gifted-charts` is installed and properly configured.
+- Customize the data arrays `lineChartData` and `barChartData` as needed to reflect your specific dataset.
+
+## Usage Scenario
+
+- Ideal for financial applications requiring the display of stock-related data or any scenario where data visualization can enhance user understanding and engagement.
+
+<hr style="border: 4px solid #000;"/>
+
+# MiscellaneousScreen Component Documentation
+
+The `MiscellaneousScreen` component showcases various React Native functionalities, including modals, alerts, swipeable list views, and segmented controls. It's designed to demonstrate the implementation of common UI patterns and interactions in a React Native application.
+
+## Features
+
+- **Alert Dialogs**: Demonstrates how to trigger a native alert dialog in response to user interactions.
+- **Modal Window**: Implements a modal window that can be shown or hidden, providing a detailed view or action space within the app.
+- **Swipeable List View**: Utilizes the `SwipeListView` component for a list that allows items to be swiped to reveal actions such as delete.
+- **Segmented Control**: Includes a segmented control for toggling between different views or states within the app.
+
+## Functional Overview
+
+- The screen allows users to interact with buttons to display an alert or a modal. These interactions are fundamental for engaging and informative user experiences.
+- The swipeable list demonstrates a dynamic way to manage lists of items, enabling actions like deleting an item through swipe gestures.
+- Data for the list is generated dynamically, showcasing how to handle lists of items and their unique keys in React Native.
+
+## Implementation Details
+
+- **Alerts**: Utilizes React Native's `Alert` module to display simple dialog messages.
+- **Modal**: The `Modal` component from React Native is used to create an overlay view that can be dismissed to return to the main screen content.
+- **SwipeListView**: This component from `react-native-swipe-list-view` allows list items to be swiped left or right to perform actions, enhancing the interactivity of lists.
+- **SegmentedControl**: The `@react-native-community/segmented-control` module provides a native iOS style segmented control, demonstrating cross-platform component usage.
+
+## Styling
+
+- The component uses `StyleSheet` for CSS-like styling, defining the appearance of buttons, modals, list items, and more.
+- Styles are designed to provide visual feedback and clarity for the user, such as highlighting interactive elements and delineating swipable list items.
+
+## Extensibility
+
+- The `MiscellaneousScreen` component can be expanded with additional functionalities and UI components, serving as a versatile template for building complex interfaces with multiple types of interactions.
+- Developers can customize the actions triggered by swiping list items or interacting with segmented controls, tailoring the component to fit specific application needs.
+
+
+
+
+

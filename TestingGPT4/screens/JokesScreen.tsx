@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F0F0F0",
   },
   button: {
-    backgroundColor: "#663399", // Ally Bank theme color
+    backgroundColor: "#663399",
     paddingHorizontal: 20,
     paddingVertical: 10,
     borderRadius: 5,

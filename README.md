@@ -321,7 +321,39 @@ The component employs a variety of styles to achieve an attractive and intuitive
 ## Extensibility
 
 The `PickersScreen` component is designed with extensibility in mind. Additional picker options can easily be integrated by expanding the state management logic and updating the UI to include new picker components as needed.
+
 <hr style="border: 4px solid #000;"/>
 
+# StocksScreen Component Documentation
 
+The `StocksScreen` component is designed for displaying and filtering a list of stocks in a React Native application. It demonstrates a practical use case of integrating a search functionality to filter through a dataset based on user input.
+
+## Features
+
+- **Dynamic Search**: Allows users to search through a list of top 50 stock symbols with mock prices. The search is responsive and updates the list according to the user's input.
+- **Stock Data Display**: Uses a `FlatList` component for efficient rendering of the stock symbols and their corresponding prices.
+- **Customizable Search**: Through the `TextInput` component, users can input their search terms to filter the stock list dynamically.
+
+## Implementation Overview
+
+- The component maintains a state for the search term and the filtered list of stocks.
+- A `TextInput` field captures user input to filter the stock symbols. The filtering logic converts both the stock symbols and the search term to uppercase to ensure case-insensitive matching.
+- The `FlatList` component is used to display the filtered list of stocks, with each item showing the stock symbol and its mock price.
+
+## Styling
+
+- The component's styling is defined using `StyleSheet.create`, providing a cohesive look and feel. Styles include specifications for the container, search bar, and stock list items.
+- Visual cues such as padding, margins, and color contrast enhance usability and readability.
+
+## Usage Scenario
+
+- The `StocksScreen` component is ideal for applications requiring data display with an option to filter through large datasets, such as financial or market analysis apps.
+
+## Extensibility
+
+- This component can be extended to fetch real-time stock data from financial APIs instead of displaying mock data.
+- Further customization can include adding more detailed stock information or integrating with other financial tools within the app.
+
+
+<hr style="border: 4px solid #000;"/>
 

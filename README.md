@@ -259,4 +259,28 @@ Shapes are conditionally rendered based on the `shape` state:
 
 This component serves as a showcase for implementing and controlling animations with `react-native-reanimated`. It provides a practical example of how animations can enhance interactivity in a React Native application.
 
+<hr style="border: 4px solid #000;"/>
+
+# SwitchesScreen Component Documentation
+
+The `SwitchesScreen` component demonstrates the use of switch toggles in a React Native application, providing interactive elements for changing app settings such as themes and screen titles dynamically.
+
+## Features
+
+- **Theme Override**: Includes a switch for toggling between light and dark themes.
+- **Title Switcher**: Features a switch to toggle the screen's title between "Switches" and "Switched".
+
+## Implementation Details
+
+- **State Management**: Uses the `useState` hook for managing the states of theme and title switches.
+- **Dynamic Styling**: Applies conditional styling based on the current theme state, altering background and text colors.
+- **Navigation Options**: Dynamically changes the screen's title based on the switch's state using `navigation.setOptions`.
+
+## Functionality
+
+- **Toggle Theme**: The theme switch triggers a state change that can be expanded to implement full theme switching logic across the app, potentially using context or global state management.
+- **Toggle Title**: The title switch modifies the screen's title, demonstrating dynamic navigation options.
+
+<hr style="border: 4px solid #000;"/>
+
 

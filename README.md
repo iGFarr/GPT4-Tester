@@ -77,6 +77,7 @@ The project utilizes React Native's `StyleSheet` for theming, ensuring that the 
 
 To use these animations in your application, import the desired hook(s) from `animationExamples.tsx`, attach the returned animated style to your component, and trigger the animation using the `start` function, typically in response to user interaction.
 
+<hr style="border: 2px solid #000;"/>
 
 # ReanimatedAnimationsScreen Component Documentation
 

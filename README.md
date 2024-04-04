@@ -14,7 +14,7 @@
 </p>
 
 
-# React Native Animation Examples
+<h2 style="color: red;">React Native Animation Examples</h2>
 
 This project demonstrates a comprehensive approach to using React Native's `Animated` library to create a variety of animations, showcasing different animation techniques such as fading, scaling, sliding, rotating, and more complex sequences like parallel and staggered animations.
 

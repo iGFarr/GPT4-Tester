@@ -283,4 +283,45 @@ The `SwitchesScreen` component demonstrates the use of switch toggles in a React
 
 <hr style="border: 4px solid #000;"/>
 
+# PickersScreen Component Documentation
+
+The `PickersScreen` component in a React Native application showcases various picker implementations, including a native picker component for selecting days, months, years, and top stock symbols. Additionally, it features a custom picker designed to mimic the native picker's functionality but with a unique user interface experience.
+
+## Features
+
+- **Native Picker Integration**: Utilizes the `@react-native-picker/picker` for selecting day, month, year, and a top stock symbol from predefined lists.
+- **Custom Picker**: Implements a custom picker for selecting numbers, demonstrating an alternative approach to the native picker component.
+- **State Management**: Manages selected values using the `useState` hook, allowing for dynamic updates across the user interface.
+
+## Implementation Details
+
+- **Dynamic Lists**: Generates lists for days, months, years, and top stock symbols dynamically, facilitating easy updates and maintenance.
+- **Custom Picker Scrolling**: The custom picker uses a `ScrollView` with `snapToInterval` for a smooth selection experience, closely mimicking native picker behavior.
+- **Styling**: Applies conditional styling based on selected themes and utilizes `StyleSheet` for a cohesive look and feel aligned with the application's design system.
+
+## CustomPicker Component
+
+A specialized component designed to offer an alternative picker experience. It accepts an array of data and a callback function as props, rendering each item as a selectable option within a scrollable view.
+
+### Usage
+
+To use the `CustomPicker` within your application:
+
+1. Import the `CustomPicker` component.
+2. Pass the data array and a callback function for handling value changes.
+
+## Styling
+
+The component employs a variety of styles to achieve an attractive and intuitive user interface:
+
+- **Container Styles**: Defines the overall layout, including background color and padding.
+- **Picker Styles**: Styles for the native picker components, ensuring consistency with the application's theme.
+- **Custom Picker Styles**: Specific styles for the custom picker, including item height for `snapToInterval` functionality and visual properties like borders and background color.
+
+## Extensibility
+
+The `PickersScreen` component is designed with extensibility in mind. Additional picker options can easily be integrated by expanding the state management logic and updating the UI to include new picker components as needed.
+<hr style="border: 4px solid #000;"/>
+
+
 

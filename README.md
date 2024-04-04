@@ -7,6 +7,12 @@
       <td><img src="ReanimatedPic.png" alt="a screenshot of reanimated feature in action" width="280"/></td>
     </tr>
     <tr>
+      <td><img src="ChartsPic.png" alt="a screenshot of the home page of GPT4-Tester" width="280"/></td>
+      <td><img src="StocksPic.png" alt="a screenshot of some joke feature of an iOS app" width="280"/></td>
+      <td><img src="PickerPic.png" alt="a screenshot showing tips for using GPT" width="280"/></td>
+      <td><img src="SwitchPic.png" alt="a screenshot of reanimated feature in action" width="280"/></td>
+    </tr>
+    <tr>
       <td height="16"></td>
       <td height="16"></td>
     </tr>

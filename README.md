@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="JokesPic.png" alt="a screenshot of some joke feature of an iOS app" width="280" style="margin-right: 10px;"/>
-  <img src="HomePic.png" alt="a screenshot of the home page of GPT4-Tester" width="280" />
+<p align="center" style="margin-bottom: 24px">
+  <img src="JokesPic.png" alt="a screenshot of some joke feature of an iOS app" width="280" style="margin-right: 24px;"/>
+  <img src="HomePic.png" alt="a screenshot of the home page of GPT4-Tester" width="280"/>
 </p>
 # React Native Animation Examples
 

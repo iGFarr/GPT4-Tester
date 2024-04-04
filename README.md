@@ -1,7 +1,13 @@
 <p align="center">
-  <img src="JokesPic.png" alt="a screenshot of some joke feature of an iOS app" width="280" style="margin-right: 48px;"/>
-  <img src="HomePic.png" alt="a screenshot of the home page of GPT4-Tester" width="280"/>
+  <table>
+    <tr>
+      <td><img src="JokesPic.png" alt="a screenshot of some joke feature of an iOS app" width="280"/></td>
+      <td width="16"></td>
+      <td><img src="HomePic.png" alt="a screenshot of the home page of GPT4-Tester" width="280"/></td>
+    </tr>
+  </table>
 </p>
+
 # React Native Animation Examples
 
 This project demonstrates a comprehensive approach to using React Native's `Animated` library to create a variety of animations, showcasing different animation techniques such as fading, scaling, sliding, rotating, and more complex sequences like parallel and staggered animations.

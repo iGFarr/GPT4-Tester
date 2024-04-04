@@ -17,6 +17,9 @@ import SwitchesScreen from "./screens/SwitchScreen";
 import PickersScreen from "./screens/PickersScreen";
 import StocksScreen from "./screens/StocksScreen";
 import ChartsScreen from "./screens/ChartsScreen";
+import PopulationScreen from "./screens/PopulationScreen";
+import PopulationScreen2 from "./screens/PopulationScreen2";
+import CollapsibleToolbar from "./screens/CollapsableToolbar";
 import MiscellaneousScreen from "./screens/Miscellaneous";
 import { enableScreens } from "react-native-screens";
 enableScreens();
@@ -52,6 +55,18 @@ function HomeScreen({ navigation }) {
         <Button title="Stocks" onPress={() => navigation.navigate("Stocks")} />
         <Button title="Charts" onPress={() => navigation.navigate("Charts")} />
         <Button
+          title="Population"
+          onPress={() => navigation.navigate("Population")}
+        />
+        <Button
+          title="PopulationStickyHeader"
+          onPress={() => navigation.navigate("PopulationStickyHeader")}
+        />
+        <Button
+          title="CollapsableToolbar"
+          onPress={() => navigation.navigate("CollapsableToolbar")}
+        />
+        <Button
           title="Miscellaneous"
           onPress={() => navigation.navigate("Miscellaneous")}
         />
@@ -80,6 +95,15 @@ function GPT_Tester() {
         <Stack.Screen name="Pickers" component={PickersScreen} />
         <Stack.Screen name="Stocks" component={StocksScreen} />
         <Stack.Screen name="Charts" component={ChartsScreen} />
+        <Stack.Screen name="Population" component={PopulationScreen} />
+        <Stack.Screen
+          name="PopulationStickyHeader"
+          component={PopulationScreen2}
+        />
+        <Stack.Screen
+          name="CollapsableToolbar"
+          component={CollapsibleToolbar}
+        />
         <Stack.Screen name="Miscellaneous" component={MiscellaneousScreen} />
         {/* Add more screens as needed */}
       </Stack.Navigator>

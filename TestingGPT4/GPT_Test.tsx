@@ -17,6 +17,7 @@ import SwitchesScreen from "./screens/SwitchScreen";
 import PickersScreen from "./screens/PickersScreen";
 import StocksScreen from "./screens/StocksScreen";
 import ChartsScreen from "./screens/ChartsScreen";
+import ChartCard from "./screens/ChartCard";
 import PopulationScreen from "./screens/PopulationScreen";
 import PopulationScreen2 from "./screens/PopulationScreen2";
 import CollapsibleToolbar from "./screens/CollapsableToolbar";
@@ -25,6 +26,25 @@ import { enableScreens } from "react-native-screens";
 enableScreens();
 
 const Stack = createStackNavigator();
+
+const LC_Data = [
+  { value: 1000 },
+  { value: 2700 },
+  { value: 2700 },
+  { value: 4000 },
+  { value: 2400 },
+  { value: 2420 },
+  { value: 640 },
+  { value: 3170 },
+  { value: 2380 },
+  { value: 2750 },
+  { value: 480 },
+  { value: 2900 },
+  { value: 2700 },
+  { value: 4230 },
+  { value: 4000 },
+  { value: 5600 },
+];
 
 function HomeScreen({ navigation }) {
   return (
@@ -54,6 +74,12 @@ function HomeScreen({ navigation }) {
         />
         <Button title="Stocks" onPress={() => navigation.navigate("Stocks")} />
         <Button title="Charts" onPress={() => navigation.navigate("Charts")} />
+        <Button
+          title="Line Chart Card"
+          onPress={() =>
+            navigation.navigate("Line Chart Card", { initialData: LC_Data })
+          }
+        />
         <Button
           title="Population"
           onPress={() => navigation.navigate("Population")}
@@ -95,6 +121,7 @@ function GPT_Tester() {
         <Stack.Screen name="Pickers" component={PickersScreen} />
         <Stack.Screen name="Stocks" component={StocksScreen} />
         <Stack.Screen name="Charts" component={ChartsScreen} />
+        <Stack.Screen name="Line Chart Card" component={ChartCard} />
         <Stack.Screen name="Population" component={PopulationScreen} />
         <Stack.Screen
           name="PopulationStickyHeader"
